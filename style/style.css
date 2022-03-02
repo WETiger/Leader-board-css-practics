@@ -1,0 +1,62 @@
+/* -----------------------------
+        google font  
+-----------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* ------------------------------
+        common style or utilities
+------------------------------------- */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+}
+.container{
+    width: 870px;
+}
+a{
+    text-decoration: none;
+}
+/* -----------------------------------
+            header-area style
+----------------------------------- */
+.header-area{
+    display: flex;
+    justify-content: center;
+    background: #562EFF;
+    /* padding: 35px 0; */
+}
+.idea-menu-area{
+    display: flex;
+    justify-content: space-between;
+}
+.idea{
+    display: flex;
+    align-items: center;
+}
+.sticker-idea img{
+    width: 41px;
+    height: 51px;
+}
+.idea-text{
+    font-size: 24px;
+    margin-left: 16px;
+    color: #fff;
+}
+
+
+
+
+/* nav  */
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    margin-left: 36px;
+}
+nav ul li a{
+    font-size: 16px;
+    color: #fff;
+}
